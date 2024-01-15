@@ -10,7 +10,7 @@ List of companies included in a text file
   EX. SPRINT
       ATT
 get-pip.py(downloadable)
-Text file containing one list of /16 ips
+Text file containing one list of /16 ips (included as file 256-ipblocks.txt for your convenience)
   EX. 256.0.0.0/16
       256.1.0.0/16
       ...
