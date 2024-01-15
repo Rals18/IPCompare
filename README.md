@@ -15,7 +15,7 @@ Files needed:
         256.1.0.0/16
         ...
         256.255.0.0/16
-4. Python(downloadable)
+5. Python(downloadable)
 
 How to run code:
 1. To run create.py - python3 create.py (will create a text file for every single list of /16 IPs)
