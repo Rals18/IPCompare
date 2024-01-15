@@ -6,16 +6,16 @@ This project allows one to use a list of IP addresses(/16s) and a list of compan
 The function of certain lines of code are explained within the files themselves.
 
 Files needed:
-List of companies included in a text file
-  EX. SPRINT
-      ATT
-get-pip.py(downloadable)
-Text file containing one list of /16 ips (included as file 256-ipblocks.txt for your convenience)
-  EX. 256.0.0.0/16
-      256.1.0.0/16
-      ...
-      256.255.0.0/16
-Python(downloadable)
+1. List of companies included in a text file
+    EX. SPRINT
+        ATT
+2. get-pip.py(downloadable)
+3. Text file containing one list of /16 ips (included as file 256-ipblocks.txt for your convenience)
+    EX. 256.0.0.0/16
+        256.1.0.0/16
+        ...
+        256.255.0.0/16
+4. Python(downloadable)
 
 How to run code:
 1. To run create.py - python3 create.py (will create a text file for every single list of /16 IPs)
@@ -25,7 +25,7 @@ How to run code:
 4. To run newipscreate.py - python3 newipscreate.py
 5. To run ip_compare.py - python3 ip_compare.py
 
-*advised to use in order, for best experience*
+*Advised to run code in order, for best experience*
 
 Known Bugs:
 When running foundipscreate.py and newipscreate.py occasionally, the code will send back an error for the very last line of the text file, but code still does its job, check new_ips.txt and founds_ip.txt to make sure program has run properly.
